@@ -24,7 +24,7 @@ urls()->set('jquery', 'wire/modules/Jquery/JqueryCore/JqueryCore.js');
 	<!-- Standard Meta -->
  	<!-- Site Properties -->    
  	<title><?=page()->title?></title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="<?=$urls->templates?>styles/images/favicon.ico" type="image/x-icon">
 	<link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
 	<!-- Site Properties --> 
 	 <!-- Google Fonts -->
