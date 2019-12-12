@@ -8,11 +8,11 @@
                                         <ul class="uk-nav-primary uk-nav-parent-icon in-margin-negative-top@s" data-uk-nav>
                                             <li ><a href="index.html">Home</a>
                                             </li>
-                                            <li ><a href="products.html">Products</a>
+                                            <li ><a href="/kinh-doanh">Kinh Doanh</a>
                                             </li>
-                                            <li class="uk-parent"><a href="#">Company</a>
+                                            <li class="uk-parent"><a href="#">Công Ty</a>
                                                 <ul class="uk-nav-sub">
-                                                    <li><a href="about.html">About</a></li>
+                                                    <li><a href="cong-ty/ve-ca-an">Về Ca An</a></li>
                                                     <li><a href="blog.html">Blog</a></li>
                                                     <li><a href="careers.html">Careers</a></li>
                                                     <li><a href="contact.html">Contact</a></li>
