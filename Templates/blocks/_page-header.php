@@ -13,10 +13,10 @@
                             <!-- header logo end -->
                         </div>
                         <div class="uk-width-1-2 uk-visible@m in-header-info">
-                            <div class="uk-margin-small-top uk-float-right">
+                            <!--<div class="uk-margin-small-top uk-float-right">
                                 <a href="#" class="uk-button uk-button-text">Create account</a>
                                 <a href="signin.html" class="uk-button uk-button-default uk-margin-small-left">Login</a>
-                            </div>
+                            </div> -->
                             <div class="in-header-socials uk-float-right">
                                 <a href="" class="uk-margin-small-right" data-uk-icon="icon: facebook; ratio: 0.8"></a>
                                 <a href="" class="uk-margin-small-right" data-uk-icon="icon: twitter; ratio: 0.8"></a>

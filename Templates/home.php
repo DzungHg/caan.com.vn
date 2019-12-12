@@ -69,24 +69,24 @@
                                         <div class="uk-width-1-1 uk-width-1-2@m">
                                             <div class="uk-grid-small" data-uk-grid>
                                                 <div class="uk-width-auto">
-                                                    <img src="<?=$urls->templates?>styles/images/agivee-icon-content4.png" data-src="<?=$urls->templates?>styles/images/agivee-icon-content4.png" alt="iconcontent4" width="70" height="70" data-uk-img>
+                                                    <img src="<?=getImageUrlFromImages($page, $page->home_exp_service->image_name)?>styles/images/agivee-icon-content4.png" data-src="<?=getImageUrlFromImages($page, $page->home_exp_service->image_name)?>" alt="iconcontent4" width="70" height="70" data-uk-img>
                                                 </div>
                                                 <div class="uk-width-expand">
-                                                    <h3>Explore services</h3>
-                                                    <p>Facilis este expedita distinctio libero tempore soluta nobis eligendi cumque nihil impedit</p>
-                                                    <a class="uk-button uk-button-secondary" href="#">Services <span class="uk-margin-small-left" data-uk-icon="icon: fa-arrow-right; ratio:0.028"></span></a>
+                                                    <h3><?=$page->home_exp_service->head_line?></h3>
+                                                    <p><?=$page->home_exp_service->content_text?></p>
+                                                    <a class="uk-button uk-button-secondary" href="<?=$page->home_exp_service->link_url?>"><?=$page->home_exp_service->link_name?> <span class="uk-margin-small-left" data-uk-icon="icon: fa-arrow-right; ratio:0.028"></span></a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="uk-width-1-1 uk-width-1-2@m">
                                             <div class="uk-grid-small" data-uk-grid>
                                                 <div class="uk-width-auto">
-                                                    <img src="<?=$urls->templates?>styles/images/agivee-icon-content5.png" data-src="<?=$urls->templates?>styles/images/agivee-icon-content5.png" alt="iconcontent5" width="70" height="70" data-uk-img>
+                                                    <img src="<?=getImageUrlFromImages($page, $page->home_view_expertise->image_name)?>" data-src="<?=getImageUrlFromImages($page, $page->home_view_expertise->image_name)?>" alt="iconcontent5" width="70" height="70" data-uk-img>
                                                 </div>
                                                 <div class="uk-width-expand">
-                                                    <h3>View expertise</h3>
-                                                    <p>Facilis este expedita distinctio libero tempore soluta nobis eligendi cumque nihil impedit</p>
-                                                    <a class="uk-button uk-button-secondary" href="#">Expertise <span class="uk-margin-small-left" data-uk-icon="icon: fa-arrow-right; ratio:0.028"></span></a>
+                                                    <h3><?=$page->home_view_expertise->head_line?></h3>
+                                                    <p><?=$page->home_view_expertise->content_text?></p>
+                                                    <a class="uk-button uk-button-secondary" href="<?=$page->home_view_expertise->link_url?>"><?=$page->home_view_expertise->link_name?> <span class="uk-margin-small-left" data-uk-icon="icon: fa-arrow-right; ratio:0.028"></span></a>
                                                 </div>
                                             </div>
                                         </div>
