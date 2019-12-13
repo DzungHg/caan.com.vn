@@ -11,10 +11,10 @@
                                             <a href="#" data-uk-icon="icon: fa-sort-down; ratio: 0.023">Công Ty</a>
                                             <div class="uk-navbar-dropdown">
                                                 <ul class="uk-nav uk-navbar-dropdown-nav">
-                                                    <li><a href="cong-ty/ve-ca-an">Về Ca An</a></li>
+                                                    <li><a href="/cong-ty/ve-ca-an">Về Ca An</a></li>
                                                     <li><a href="blog.html">Blog</a></li>
                                                     <li><a href="careers.html">Careers</a></li>
-                                                    <li><a href="contact.html">Contact</a></li>
+                                                    <li><a href="/cong-ty/lien-he">Liên Hệ</a></li>
                                                 </ul>
                                             </div>
                                         </li>

@@ -15,7 +15,7 @@
                                                     <li><a href="/cong-ty/ve-ca-an">Về Ca An</a></li>
                                                     <li><a href="blog.html">Blog</a></li>
                                                     <li><a href="careers.html">Careers</a></li>
-                                                    <li><a href="/cong-ty/lien-he">Contact</a></li>
+                                                    <li><a href="/cong-ty/lien-he">Liên hệ</a></li>
                                                 </ul>
                                             </li>
                                             <li ><a href="pricing.html">Pricing</a>
