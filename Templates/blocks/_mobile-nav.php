@@ -13,8 +13,8 @@
                                             <li class="uk-parent"><a href="#">Công Ty</a>
                                                 <ul class="uk-nav-sub">
                                                     <li><a href="/cong-ty/ve-ca-an">Về Ca An</a></li>
-                                                    <li><a href="/#">Blog</a></li>
-                                                    <li><a href="/#">Careers</a></li>
+                                                  
+                                                    <li><a href="/cong-ty/tuyen-dung">Tuyển Dụng</a></li>
                                                     <li><a href="/cong-ty/lien-he">Liên hệ</a></li>
                                                 </ul>
                                             </li>

@@ -12,8 +12,8 @@
                                             <div class="uk-navbar-dropdown">
                                                 <ul class="uk-nav uk-navbar-dropdown-nav">
                                                     <li><a href="/cong-ty/ve-ca-an">Về Ca An</a></li>
-                                                    <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="careers.html">Careers</a></li>
+                                
+                                                    <li><a href="/cong-ty/tuyen-dung">Tuyển Dụng</a></li>
                                                     <li><a href="/cong-ty/lien-he">Liên Hệ</a></li>
                                                 </ul>
                                             </div>

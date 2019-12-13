@@ -1,4 +1,54 @@
-<?php namespace ProcessWire; ?>
+<?php namespace ProcessWire;
+/**
+ * render chỉ dùng 1  uk-label-success, bỏ bớt: uk-label-warning; uk-label, Lo ngại
+ */
+
+function renderRoadMapItems(Page $page)
+{
+    $out = '';
+    $statusArr = array("warning"=>"Lo ngại", "complete"=>"Hoàn thành", "progress"=>"Tiến triển");
+    $ukLabelClass = '';
+    $status = '';
+
+    foreach($page->field_repeater_matrix as $item) {
+        if($item->type == 'road_map') {
+            $status = trim($item->roadmap_status);
+
+            if($status == $statusArr['warning'])
+            { 
+                $ukLabelClass = 'uk-label-warning';
+            } else if($status == $statusArr['complete'])
+            {
+                $ukLabelClass = 'uk-label-success';
+            } else
+            {
+                $ukLabelClass ='';
+            }
+            
+            $out .= "
+            <div>
+                <div class='in-roadmap-branch'>
+                    <div class='uk-flex'>
+                        <div class='in-icon-wrapper circle'>$item->roadmap_quarter_num</div>
+                        <div class='in-roadmap-title uk-flex uk-flex-middle'>
+                            <h4 class='uk-margin-remove-bottom'>$item->roadmap_year_num <span class='uk-label $ukLabelClass'>$item->roadmap_status</span></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class='uk-card uk-card-default uk-card-small'>
+                    <div class='uk-card-body'>
+                    $item->roadmap_content
+                    </div>
+                </div>
+            </div>
+            ";
+        }
+        
+    }
+    return $out;
+}
+
+?>
 
 <pw-region id="page-content">
 <main>    
@@ -9,69 +59,22 @@
                     <!-- breadcrumb content end -->
                     <!-- grid content begin -->
                     <div class="uk-grid">
+                        <div class="uk-flex uk-flex-center">
+                            <div class="uk-width-1-1 uk-width-3-4@m">
+                                <?php echo $page->body ?>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- grid content end -->
+
+                    <!-- grid content begin -->
+                    <div class="uk-grid">
                         <div class="uk-width-1-1 in-roadmap uk-margin-bottom">
                             <hr>
                             <div class="uk-grid-small uk-child-width-1-1 uk-child-width-1-3@m" data-uk-grid>
-                                <div>
-                                    <div class="in-roadmap-branch">
-                                        <div class="uk-flex">
-                                            <div class="in-icon-wrapper circle">Q4</div>
-                                            <div class="in-roadmap-title uk-flex uk-flex-middle">
-                                                <h4 class="uk-margin-remove-bottom">2018 <span class="uk-label uk-label-success">completed</span></h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="uk-card uk-card-default uk-card-small">
-                                        <div class="uk-card-body">
-                                            <ul class="uk-list uk-list-bullet">
-                                                <li>Wireframe</li>
-                                                <li>Design</li>
-                                                <li>Documentation</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="in-roadmap-branch">
-                                        <div class="uk-flex">
-                                            <div class="in-icon-wrapper circle">Q2</div>
-                                            <div class="in-roadmap-title uk-flex uk-flex-middle">
-                                                <h4 class="uk-margin-remove-bottom">2019 <span class="uk-label">on progress</span></h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="uk-card uk-card-default uk-card-small">
-                                        <div class="uk-card-body">
-                                            <ul class="uk-list uk-list-bullet">
-                                                <li>Chart with base functional</li>
-                                                <li>Launching plans and billings</li>
-                                                <li>Improvement of the rest of the functions of the Chart</li>
-                                                <li>Availability panel</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="in-roadmap-branch">
-                                        <div class="uk-flex">
-                                            <div class="in-icon-wrapper circle">Q3</div>
-                                            <div class="in-roadmap-title uk-flex uk-flex-middle">
-                                                <h4 class="uk-margin-remove-bottom">2019 <span class="uk-label uk-label-warning">planned</span></h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="uk-card uk-card-default uk-card-small">
-                                        <div class="uk-card-body">
-                                            <ul class="uk-list uk-list-bullet">
-                                                <li>Extensions for other popular browsers</li>
-                                                <li>List View for your tasks</li>
-                                                <li>Apps for iOS &amp; Android</li>
-                                                <li>New cool skin for Default View</li>
-                                                <li>Community formation and the subsequent cyclic completion of the product based on the wishes of customers</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                                <!-- render roadmap items -->
+                                <?=renderRoadMapItems($page) ?>
+                                <!-- render roadmap items end-->
                             </div>
                         </div>
                     </div>
