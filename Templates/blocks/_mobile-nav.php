@@ -13,24 +13,21 @@
                                             <li class="uk-parent"><a href="#">Công Ty</a>
                                                 <ul class="uk-nav-sub">
                                                     <li><a href="/cong-ty/ve-ca-an">Về Ca An</a></li>
-                                                    <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="careers.html">Careers</a></li>
+                                                    <li><a href="/#">Blog</a></li>
+                                                    <li><a href="/#">Careers</a></li>
                                                     <li><a href="/cong-ty/lien-he">Liên hệ</a></li>
                                                 </ul>
                                             </li>
-                                            <li ><a href="pricing.html">Pricing</a>
-                                            </li>
-                                            <li class="uk-parent"><a href="#">Resources</a>
+                                          
+                                            <li class="uk-parent"><a href="#">Tài Nguyên</a>
                                                 <ul class="uk-nav-sub">
-                                                    <li><a href="https://getuikit.com/docs/">Documentation<span data-uk-icon="icon:fa-external-link-alt; ratio: 0.024"></span></a></li>
-                                                    <li><a href="#">Help Center</a></li>
-                                                    <li><a href="customers.html">Customers</a></li>
-                                                    <li><a href="roadmap.html">Roadmap</a></li>
-                                                    <li><a href="#">White Paper<span data-uk-icon="icon:fa-file-pdf; ratio: 0.024"></span></a></li>
+                                                  
+                                                <li><a href="/tai-nguyen/qua-trinh-phat-trien">Quá Trình Phát Triển</a></li>
+                                                  
                                                 </ul>
                                             </li>
                                         </ul>
-                                        <a href="signin.html" class="uk-button uk-button-primary uk-border-rounded uk-align-center">Sign in</a>
+                                        <!--<a href="signin.html" class="uk-button uk-button-primary uk-border-rounded uk-align-center">Sign in</a> -->
                                     </div>
                                 </div>
 </div>

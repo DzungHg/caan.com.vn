@@ -4,6 +4,7 @@ $home = pages()->get('/'); // homepage
 $siteTitle = 'Regular';	
 $siteTagline = $home->summary; 
 $pageSettings = pages()->get('/cai-dat');
+$menuTaiNguyen = pages()->get('/tai-nguyen');
 // as a convenience, set location of our 3rd party resources (Uikit and jQuery)...
 urls()->set('uikit', 'wire/modules/AdminTheme/AdminThemeUikit/uikit/dist/');
 urls()->set('jquery', 'wire/modules/Jquery/JqueryCore/JqueryCore.js');

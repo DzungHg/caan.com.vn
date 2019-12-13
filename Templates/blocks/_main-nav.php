@@ -18,25 +18,22 @@
                                                 </ul>
                                             </div>
                                         </li>
+                                       
                                         <li>
-                                            <a href="pricing.html">Pricing</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" data-uk-icon="icon: fa-sort-down; ratio: 0.023">Resources</a>
+                                            <a href="#" data-uk-icon="icon: fa-sort-down; ratio: 0.023">Tài Nguyên</a>
                                             <div class="uk-navbar-dropdown uk-navbar-dropdown-width-2">
                                                 <div class="uk-navbar-dropdown-grid uk-child-width-1-2" data-uk-grid>
                                                     <div>
                                                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                                                            <li><a href="https://getuikit.com/docs/">Documentation<span data-uk-icon="icon:fa-external-link-alt; ratio: 0.024"></span></a></li>
-                                                            <li><a href="#">Help Center</a></li>
-                                                            <li><a href="customers.html">Customers</a></li>
-                                                            <li><a href="roadmap.html">Roadmap</a></li>
-                                                            <li><a href="#">White Paper<span data-uk-icon="icon:fa-file-pdf; ratio: 0.024"></span></a></li>
+                                                           
+                                                            <li><a href="/tai-nguyen/qua-trinh-phat-trien">Quá Trình Phát Triển</a></li>
+                                                       
                                                         </ul>
                                                     </div>
                                                     <div>
                                                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                                                            <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p></li>
+                                                            
+                                                            <li><p><?=$menuTaiNguyen->headline?></p></li>
                                                         </ul>
                                                     </div>
                                                 </div>
