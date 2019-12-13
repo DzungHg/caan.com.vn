@@ -12,10 +12,10 @@
                                             </li>
                                             <li class="uk-parent"><a href="#">Công Ty</a>
                                                 <ul class="uk-nav-sub">
-                                                    <li><a href="cong-ty/ve-ca-an">Về Ca An</a></li>
+                                                    <li><a href="/cong-ty/ve-ca-an">Về Ca An</a></li>
                                                     <li><a href="blog.html">Blog</a></li>
                                                     <li><a href="careers.html">Careers</a></li>
-                                                    <li><a href="contact.html">Contact</a></li>
+                                                    <li><a href="/cong-ty/lien-he">Contact</a></li>
                                                 </ul>
                                             </li>
                                             <li ><a href="pricing.html">Pricing</a>
