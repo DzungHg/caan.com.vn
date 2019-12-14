@@ -68,23 +68,7 @@
                             <div class="in-colored-card grey">
                                 <div class="uk-card uk-card-default">
                                     <div class="uk-card-body">
-                                        <form id="contact-form" class="uk-form">
-                                            <div class="uk-margin uk-width-1-1">
-                                                <input class="uk-input" id="name" value="" type="text" placeholder="Full name">
-                                            </div>
-                                            <div class="uk-margin uk-width-1-1">
-                                                <input class="uk-input" id="email" value="" type="email" placeholder="Email">
-                                            </div>
-                                            <div class="uk-margin uk-width-1-1">
-                                                <input class="uk-input" id="subject" value="" type="text" placeholder="Subject">
-                                            </div>
-                                            <div class="uk-margin uk-width-1-1">
-                                                <textarea class="uk-textarea" id="message" rows="5" placeholder="Message"></textarea>
-                                            </div>
-                                            <div>
-                                                <button class="uk-width-1-1 uk-button uk-button-primary uk-border-rounded uk-float-left" id="buttonsend" type="submit" name="submit">Gởi đi</button>
-                                            </div>
-                                        </form>
+                                    <?php echo $forms->render('lien-he'); ?>
                                     </div>
                                 </div>
                             </div>
