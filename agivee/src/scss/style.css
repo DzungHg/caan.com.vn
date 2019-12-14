@@ -83,7 +83,7 @@ footer .uk-light .uk-label {
   border-radius: 4px;
   padding: 4px 8px 2px 8px; }
 footer .uk-light .uk-button-primary {
-  background-color: #007CC3;
+  background-color: #e47d2e;
   color: #ffffff; }
 footer .uk-light .uk-list.uk-link-text a {
   color: rgba(255, 255, 255, 0.7); }
@@ -95,7 +95,7 @@ footer .uk-light .in-copyright {
 .in-slide-container .in-slideshow .uk-light p {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); }
 .in-slide-container .uk-slideshow-items {
-  background: #002D40; }
+  background: #2f3640; }
 .in-slide-container .uk-slideshow-items li .uk-text-lead {
   font-size: 22px;
   color: #808080; }
@@ -117,7 +117,7 @@ footer .uk-light .in-copyright {
   border-bottom: 1px solid #DBDCDE; }
   .in-breadcrumb h2 {
     margin-top: 3px;
-    color: #007CC3; }
+    color: #e47d2e; }
   .in-breadcrumb .uk-text-small {
     margin-top: 0px;
     line-height: 26px; }
@@ -239,9 +239,9 @@ footer .uk-light .in-copyright {
   position: relative;
   top: -20px; }
 .in-pricing.in-pricing-highlight .uk-card-header {
-  border-top: 4px solid #007CC3; }
+  border-top: 4px solid #e47d2e; }
 .in-pricing.in-pricing-highlight .uk-card-header .uk-label {
-  background-color: #007CC3;
+  background-color: #e47d2e;
   color: #333; }
 .in-pricing .uk-card-body {
   background: #f7f7f7;
@@ -364,7 +364,7 @@ footer .uk-light .in-copyright {
   text-transform: uppercase;
   margin: 10px 0 0px 0; }
 .in-blog p.uk-article-meta span.uk-label {
-  background-color: #007CC3;
+  background-color: #e47d2e;
   font-size: 11px;
   text-transform: uppercase;
   position: relative;
@@ -445,7 +445,7 @@ footer .uk-light .in-copyright {
   margin: 1px 0 -10px 0;
   float: left; }
 .in-widget-popular li a span {
-  color: #007CC3; }
+  color: #e47d2e; }
 
 .in-widget-archive li a span.uk-label {
   font-size: 11px;
@@ -455,7 +455,7 @@ footer .uk-light .in-copyright {
   position: relative;
   top: 6px; }
 .in-widget-archive li a:hover span.uk-label {
-  background-color: #007CC3; }
+  background-color: #e47d2e; }
 
 .in-widget-tag a.uk-label {
   margin-right: 5px; }
@@ -468,7 +468,7 @@ footer .uk-light .in-copyright {
 .in-widget-category li a:hover,
 .in-widget-popular li a:hover,
 .in-widget-archive li a:hover {
-  color: #007CC3; }
+  color: #e47d2e; }
 
 /* Indonez plyr.io */
 .in-video-wrapper .plyr,
@@ -516,7 +516,7 @@ a:hover.in-totop {
 
 /* Indonez image shadow */
 .in-img-shadow {
-  box-shadow: 20px 20px 0px 0px #007CC3; }
+  box-shadow: 20px 20px 0px 0px #e47d2e; }
 
 /* uk-accordion remove border bottom */
 .uk-open > .uk-accordion-title {
