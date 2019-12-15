@@ -27,7 +27,7 @@
                                                         <ul class="uk-nav uk-navbar-dropdown-nav">
                                                            
                                                             <li><a href="/tai-nguyen/qua-trinh-phat-trien">Quá Trình Phát Triển</a></li>
-                                                       
+                                                            <li><a href="/tai-nguyen/ho-so-nang-luc">Hồ Sơ Năng Lực</a></li>
                                                         </ul>
                                                     </div>
                                                     <div>

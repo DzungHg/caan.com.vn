@@ -27,11 +27,11 @@
                         <div>
                             <h3 class="uk-margin-bottom"><?=$page->home_core_value_block->title?></h3>
                             <p class="uk-margin-small-top"><?=$page->home_core_value_block->text_line_01?></p>
-                            <p><?=$page->home_core_value_block->text_line_01?></p>
+                            <p><?=$page->home_core_value_block->text_line_02?></p>
                             <ul class="uk-list uk-list-divider uk-text-uppercase uk-text-small">
                                 <li><span class="uk-margin-small-right" data-uk-icon="icon: fa-layer-group; ratio:0.028"></span><?=$page->home_core_value_block->proclaim_01?></li>
                                 <li><span class="uk-margin-small-right" data-uk-icon="icon: fa-chess-knight; ratio:0.028"></span><?=$page->home_core_value_block->proclaim_02?></li>
-                                <li><span class="uk-margin-small-right" data-uk-icon="icon: fa-handshake; ratio:0.028"></span><?=$page->home_core_value_block->proclaim_02?></li>
+                                <li><span class="uk-margin-small-right" data-uk-icon="icon: fa-handshake; ratio:0.028"></span><?=$page->home_core_value_block->proclaim_03?></li>
                             </ul>
                         </div>
                         <div>

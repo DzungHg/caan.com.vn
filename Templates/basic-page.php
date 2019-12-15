@@ -9,7 +9,32 @@
                     <!-- breadcrumb content end -->
                     <!-- grid content begin -->
                     <div class="uk-grid" data-uk-grid>    
-				<?php echo $page->body ?>
+                    <div class="uk-width-1-1 uk-width-2-3@m">
+                              <?=$page->body?>
+                        </div>
+                        <div class="uk-width-1-1 uk-width-1-3@m in-margin-large-top@s">
+                            <!-- sidebar và trang con kèm  -->
+                            <aside class="in-blog-sidebar uk-margin-medium-bottom">
+                                <?=$page->sidebar?>
+                                <?php //Nếu có trang con thì list
+                                if ($page->children()->count())
+                                {
+                                    $out = "'
+                                        <ul class='uk-list uk-list-divider'>'
+                                        ";
+                                    foreach ($page->children() as $item)
+                                    {
+                                             $out .= "<li><a href='$item->url'>$item->title<span class='uk-float-right' data-uk-icon='icon: triangle-right; ratio: 0.9'></span></a></li>";   
+                                    }
+                                    $out .= " </ul> ";
+
+                                    echo $out;
+                                }
+                                 ?>                                
+                            </aside>                        
+                            <!-- side bar và trang con kèm Hết -->
+                            
+                        </div>
                     </div>
                     <!-- grid content end -->
                                   

@@ -9,11 +9,29 @@
                     <!-- breadcrumb content end -->
                     <!-- grid content begin -->
                   <div class="uk-grid">
-                        <div class="uk-flex uk-flex-center">
+                  <div class="uk-flex uk-flex-center">
                             <div class="uk-width-1-1 uk-width-3-4@m">
                                 <p class="uk-text-large"><?=$page->headline?></p>
-                                <p><?=$page->body?></p>
-                               <!-- còn tiếp nhưng bỏ bớt -->
+                                <!--<p><?=$page->text_line?></p> -->
+                                <?=$page->body?>
+                                <div class="uk-grid-divider uk-child-width-1-1 uk-child-width-1-3@m uk-margin-medium-top uk-margin-bottom" data-uk-grid>
+                                   <!-- <div>
+                                        <h4</h4>
+                                        <p></p>
+                                        <a class="uk-button uk-button-link" href="#"></a>
+                                    </div>
+                                    <div>             
+                                        <h4></h4>
+                                        <p></p>
+                                        <a class="uk-button uk-button-link" href="#"></a>
+                                    </div>
+                                    <div>
+                                        <h4></h4>
+                                        <p></p>
+                                        <a class="uk-button uk-button-link" href="#"></a>
+                                    </div>
+                                          -->
+                                </div>
                             </div>
                         </div>
                   </div>

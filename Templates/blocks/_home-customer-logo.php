@@ -10,7 +10,7 @@
             $imageLink = getImageUrlFromImages($page, $item->image_name);
             echo "
             <div>
-                            <img src='$imageLink' data-src='$imageLink' alt='$item->imange_alt_text' data-width data-height data-uk-img>
+                <img src='$imageLink' data-src='$imageLink' alt='$item->imange_alt_text' data-width data-height data-uk-img>
             </div>
             ";
 
