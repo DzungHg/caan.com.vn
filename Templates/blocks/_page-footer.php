@@ -38,7 +38,7 @@
                                     <h5><?=$pageSettings->setting_link_group_01->head_line?></h5>
                                     <ul class="uk-list uk-link-text">
                                         <li><a href="<?=$pageSettings->setting_link_group_01->link_url_01?>"><?=$pageSettings->setting_link_group_01->link_name_01?></a></li>
-                                        <li><a href="<?=$pageSettings->setting_link_group_01->link_url_021?>"><?=$pageSettings->setting_link_group_01->link_name_02?></a></li>
+                                        <li><a href="<?=$pageSettings->setting_link_group_01->link_url_02?>"><?=$pageSettings->setting_link_group_01->link_name_02?></a></li>
                                         <li><a href="<?=$pageSettings->setting_link_group_01->link_url_03?>"><?=$pageSettings->setting_link_group_01->link_name_03?></a></li>
                                     </ul>
                                 </div>
