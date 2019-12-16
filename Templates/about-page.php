@@ -11,7 +11,6 @@
                     <div class="uk-grid">
                         <div class="uk-grid-large uk-child-width-1-1 uk-child-width-1-2@m" data-uk-grid>
                             <div>
-                                <p class="uk-text-lead"><?=$page->head_line_01?></p>
                                 <?=$page->body?>
                                 <div class="uk-card uk-card-secondary uk-card-small uk-margin-medium-top">
                                     <div class="uk-card-body">

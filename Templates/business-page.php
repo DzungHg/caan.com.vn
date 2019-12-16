@@ -19,8 +19,8 @@
                                 <?php //Nếu có trang con thì list
                                 if ($page->children()->count())
                                 {
-                                    $out = "'
-                                        <ul class='uk-list uk-list-divider'>'
+                                    $out = "
+                                        <ul class='uk-list uk-list-divider'>
                                         ";
                                     foreach ($page->children() as $item)
                                     {
