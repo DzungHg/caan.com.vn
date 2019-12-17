@@ -37,23 +37,32 @@
                                 -->
                             </aside>                        
                             <!-- side bar và trang con kèm Hết -->
-                            <!-- lãnh vực kinh doanh  -->                        
+                            <!-- lãnh vực kinh doanh  --> 
+                             <!-- nếu cho list thì list  -->                       
                             <aside class="in-blog-sidebar uk-margin-medium-bottom">
-                            <div class="uk-card uk-card-default">
-                                <div class="uk-card-body">
-                                    <h5 class="uk-text-uppercase uk-margin-remove-bottom">Dịch Vụ & Kinh Doanh</h5>
-                                    <ul class="uk-list uk-list-divider in-widget-category">
-                                          <?php
-                                          $itemParent = $page->parent();
-                                          foreach ($itemParent->children() as $item)
-                                          {
-                                             echo "<li><a href='$item->url'>$item->title<span class='uk-float-right' data-uk-icon='icon: triangle-right; ratio: 0.9'></span></a></li>";   
-                                          }
-                                           ?>
-                                       
-                                    </ul>
-                                </div>
-                            </div>
+                           
+                                    <?php
+                                    
+                                    if ($page->business_page_list_biz_list == 1) //có cho list
+                                    {
+                                        $out = "<div class='uk-card uk-card-default'>
+                                        <div class='uk-card-body'>
+                                        <h5 class='uk-text-uppercase uk-margin-remove-bottom'>Dịch Vụ & Kinh Doanh</h5>
+                                         <ul class='uk-list uk-list-divider in-widget-category'>" ;
+                                        $itemParent = $page->parent();
+                                        foreach ($itemParent->children() as $item)
+                                        {
+                                           $out .= "<li><a href='$item->url'>$item->title<span class='uk-float-right' data-uk-icon='icon: triangle-right; ratio: 0.9'></span></a></li>";   
+                                        }
+                                        $out .= '</ul> 
+                                        </div>
+                                        </div>';
+                                        echo $out;
+                                    }
+                                    
+                                    ?>
+                                    
+                                
                             </aside>
                         <!-- lãnh vực kinh doanh Hết -->
                         </div>
