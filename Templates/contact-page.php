@@ -59,7 +59,7 @@
                                     <span class="uk-icon-button" data-uk-icon="icon:fa-map-marker-alt; ratio: 0.028"></span>
                                 </div>
                                 <div class="uk-margin-small-left" data-uk-lightbox>
-                                    <p><?=$page->contact_page_address->addresss?> <a href="<?=$page->contact_page_address->url_google_map?>"
+                                    <p><?=$page->contact_page_address->address?> <a href="<?=$page->contact_page_address->url_google_map?>"
                                         data-caption="Google Maps" data-type="iframe"><span class="uk-label uk-margin-small-left">Xem trên bản đồ</span></a></p>
                                 </div>
                             </div>
