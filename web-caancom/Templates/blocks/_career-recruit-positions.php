@@ -1,3 +1,6 @@
+<?php namespace ProcessWire;
+$jobList = $page->children("career_job_on=1");
+ ?>
 <div class="uk-grid">
                     <div class="uk-width-1-1 uk-margin-bottom">
                         <h2 class="uk-text-center">Các Vị Trí</h2>
@@ -5,19 +8,17 @@
                                 <tbody>
                                     <?php
                                     $out = '';
-                                    foreach($page->bang_tuyen_dung as $row)
+                                    foreach($jobList as $row)
                                     {
-                                        if ($row->recruiting == 1) //Đang tuyển
-                                        {
+                                       
                                             $out .= "<tr>
                                             <td>
-                                                <h4>$row->position</h4>
+                                                <h4><a href='$row->url'>$row->headline</a></h4>
                                             </td>
-                                            <td>$row->working_place</td>
-                                            <td class='uk-text-left uk-text-right@m'><a class='uk-button uk-button-primary uk-border-rounded' href='$row->link_apply'>Tham gia ứng tuyển <span data-uk-icon='icon: fa-arrow-right; ratio: 0.028'></span></a></td>
+                                            <td>$row->career_job_working_place</td>
+                                            <td class='uk-text-left uk-text-right@m'><a class='uk-button uk-button-primary uk-border-rounded' href='$row->career_job_link_apply'>Tôi ứng tuyển <span data-uk-icon='icon: fa-arrow-right; ratio: 0.028'></span></a></td>
                                         </tr>";
-
-                                        }  
+  
                                     };
                                     echo $out; ?>
                                 </tbody>
