@@ -13,10 +13,10 @@ $jobList = $page->children("career_job_on=1");
                                        
                                             $out .= "<tr>
                                             <td>
-                                                <h4><a href='$row->url'>$row->headline</a></h4>
+                                                <h4>$row->headline</h4>
                                             </td>
                                             <td>$row->career_job_working_place</td>
-                                            <td class='uk-text-left uk-text-right@m'><a class='uk-button uk-button-primary uk-border-rounded' href='$row->career_job_link_apply'>Tôi ứng tuyển <span data-uk-icon='icon: fa-arrow-right; ratio: 0.028'></span></a></td>
+                                            <td class='uk-text-left uk-text-right@m'><a class='uk-button uk-button-primary uk-border-rounded' href='$row->url'>Xem chi tiết <span data-uk-icon='icon: fa-arrow-right; ratio: 0.028'></span></a></td>
                                         </tr>";
   
                                     };
